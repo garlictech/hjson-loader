@@ -1,6 +1,6 @@
 {
   "name": "hjson-loader",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "author": "Zsolt R. Molnar zsolt@zsoltmolnar.hu",
   "description": "hjson loader module for webpack",
   "license": "MIT",
