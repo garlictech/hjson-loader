@@ -1,0 +1,17 @@
+{
+  "name": "hjson-loader",
+  "version": "0.1.0",
+  "author": "Zsolt R. Molnar zsolt@zsoltmolnar.hu",
+  "description": "hjson loader module for webpack",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/molnarzs/hjson-loader.git"
+  },
+  "peerDependencies": {
+    "hjson": "^1.7.4"
+  },
+  "dependencies": {
+    "loader-utils": "^0.2.12"
+  }
+}
