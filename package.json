@@ -9,9 +9,9 @@
     "url": "https://github.com/garlictech/hjson-loader.git"
   },
   "peerDependencies": {
-    "hjson": "^1.7.4"
+    "hjson": "^2.4.2"
   },
   "dependencies": {
-    "loader-utils": "^0.2.12"
+    "loader-utils": "^1.1.0"
   }
 }
