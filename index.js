@@ -9,7 +9,7 @@ module.exports = function(source) {
   this.cacheable && this.cacheable();
   var value = typeof source === "string" ? HJSON.parse(source) : source;
   this.value = [value];
-  var query = loaderUtils.parseQuery(this.query);
+  var query = loaderUtils.getOptions(this) || {};
   stringified = JSON.stringify(value, undefined, "\t");
   return query.str ? stringified : 'module.exports = ' + stringified + ';';
 }
